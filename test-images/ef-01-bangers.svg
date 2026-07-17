@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="150" viewBox="0 0 500 150">
+  <style>/* <![CDATA[ */
+@import url('https://fonts.googleapis.com/css2?family=Bangers');
+  /* ]]> */</style>
+  <rect width="100%" height="100%" fill="#263238" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+    font-family="'Bangers', cursive" font-size="40px"
+    fill="#ffab40">BANGERS!</text>
+</svg>
