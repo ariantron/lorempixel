@@ -1,4 +1,4 @@
-# lorempixar
+# Lorem Pixar
 
 Generate placeholder images — programmatically. Choose dimensions, colors, text,
 fonts, and output format. Useful as a drop-in replacement for services like
