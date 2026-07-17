@@ -1,11 +1,15 @@
 {
-  "name": "lorempixar",
-  "version": "1.0.0",
+  "name": "lorempixel",
+  "version": "1.0.1",
   "description": "Generate placeholder images with custom width, height, background color, text color, and text",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ariantron/lorempixel.git"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",

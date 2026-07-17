@@ -1,4 +1,4 @@
-# Lorem Pixar
+# Lorem Pixel
 
 Generate placeholder images — programmatically. Choose dimensions, colors, text,
 fonts, and output format. Useful as a drop-in replacement for services like
@@ -13,7 +13,7 @@ or custom-branded placeholders.
 ## Install
 
 ```bash
-npm install lorempixar
+npm install lorempixel
 ```
 
 For raster formats (`png` / `jpeg` / `webp`), install sharp as well:
@@ -27,7 +27,7 @@ npm install sharp
 ## Quick Start
 
 ```ts
-import { generateSVG, generateImage, generateDataUrl } from "lorempixar";
+import { generateSVG, generateImage, generateDataUrl } from "lorempixel";
 import { writeFileSync } from "node:fs";
 
 // ── SVG string ──────────────────────────────────────────────────
@@ -63,7 +63,7 @@ const url = generateDataUrl({ width: 400, height: 300 });
 
 ```ts
 import express from "express";
-import { generateImage } from "lorempixar";
+import { generateImage } from "lorempixel";
 
 const app = express();
 
@@ -89,7 +89,7 @@ app.listen(3000);
 ### React / Next.js — component wrapper
 
 ```tsx
-import { generateSVG } from "lorempixar";
+import { generateSVG } from "lorempixel";
 
 function Placeholder({
   width = 300,
@@ -120,7 +120,7 @@ function Placeholder({
 
 ```bash
 bun -e "
-  const { generateSVG } = require('lorempixar');
+  const { generateSVG } = require('lorempixel');
   process.stdout.write(generateSVG({ width: 800, height: 400, text: 'CLI' }));
 " > output.svg
 ```
@@ -288,4 +288,4 @@ Same canvas (500×150), dark theme, text shows the pixel size:
 
 ## License
 
-MIT © lorempixar
+MIT © lorempixel
